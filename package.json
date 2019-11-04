@@ -1,6 +1,6 @@
 {
-  "name": "coap-router",
-  "version": "1.0.4",
+  "name": "coap-express",
+  "version": "1.0.0",
   "description": "A quick demo on how to leverage web router to build CoAP server.",
   "main": "lib/router.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/crux153/coap-router.git"
+    "url": "git+https://github.com/danilopeixoto/coap-router.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/crux153/coap-router/issues"
+    "url": "https://github.com/danilopeixoto/coap-router/issues"
   },
-  "homepage": "https://github.com/crux153/coap-router#readme",
+  "homepage": "https://github.com/danilopeixoto/coap-router#readme",
   "dependencies": {
     "coap": "^0.21.0",
     "path-to-regexp": "^2.0.0"
