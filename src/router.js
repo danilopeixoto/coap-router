@@ -69,7 +69,8 @@ module.exports = function() {
 
 						if (matches) {
 							if (matches.length > 1) {
-								req.params = {};
+								if (!req.params)
+									req.params = {};
 
 								keys.forEach((key, idx) => {
 									req.params[key.name] = matches[idx + 1];
@@ -94,7 +95,7 @@ module.exports = function() {
 				} else {
 					if (!req.handled) {
 						// 404 - Not found
-						res.code = 404;
+						res.code = '4.04';
 						res.end();
 					}
 				}
